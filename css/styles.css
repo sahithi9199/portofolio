@@ -1,0 +1,234 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section padding and text alignment */
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* Home section styles */
+.home {
+    background-color: #f4f4f4;
+    padding-top: 6rem; /* Extra padding to offset the fixed header */
+}
+
+.home .intro {
+    max-width: 600px;
+    margin: auto;
+}
+
+.home .intro img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Projects section styles */
+.projects {
+    background-color: #fff;
+}
+
+.projects h2 {
+    margin-bottom: 1.5rem;
+}
+
+.projects .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects .project {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 250px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.projects .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.projects .project h3 {
+    margin: 0.5rem 0;
+}
+
+.projects .project a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+.projects .project:hover {
+    transform: translateY(-5px); /* Hover effect for project cards */
+}
+
+/* Skills section styles */
+.skills {
+    background-color: #f9f9f9;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin: 0.5rem 1rem;
+    background: #ddd;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Links section styles */
+.links {
+    background-color: #fff;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.links ul li {
+    margin: 1rem;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section styles */
+.contact {
+    background-color: #f9f9f9;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact form button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
